@@ -1,0 +1,27 @@
+/* Estilos básicos del navbar */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #2494d5;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar li:hover {
+    background-color: #555;
+  }
+  
+  /* Estilo para el elemento activo */
+  .navbar li.active {
+    background-color: #f00; /* Cambia esto al color que desees para resaltar el elemento activo */
+  }
+  
